@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\niels\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj",
+      "projectName": "Inazuma",
+      "projectPath": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj",
+      "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj": {
+              "projectPath": "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "oMLmqqCiDGEnvjP4/d3H0tyYeBtV27jrAjbu1LxusYSHgdeBr+MIOVvqPvTYdUW4W40QkYUKq7DABSjB006coA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InazumaDSEditor", "InazumaDSEditor.csproj", "{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9A9845D-8E33-4927-8010-1413D9ADBBA3} = {D9A9845D-8E33-4927-8010-1413D9ADBBA3}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekona", "..\..\..\Downloads\Ekona-1.0\Ekona-1.0\src\Ekona\Ekona.csproj", "{D9A9845D-8E33-4927-8010-1413D9ADBBA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {386EB72D-9CC0-495F-85A2-EA5F711DBCCB}
+	EndGlobalSection
+EndGlobal

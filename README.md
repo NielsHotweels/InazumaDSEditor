@@ -1,5 +1,5 @@
-# Inazuma
-Editor for Inazuma Eleven 1 and 2 that
+# Inazuma Eleven DS Editor
+Rom editor for Inazuma Eleven 1 and 2
 
 # Features
 - Opens rom directly, no fuss with exporting and importing the edited files

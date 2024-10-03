@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inazuma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaa4923d932a315e936a7c601ebc026c51b1bc36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43d0df248eb651a193f8b92673e79a96db4c261a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inazuma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inazuma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

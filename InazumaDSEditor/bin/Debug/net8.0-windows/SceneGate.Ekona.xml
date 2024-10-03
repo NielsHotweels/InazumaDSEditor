@@ -1176,6 +1176,20 @@
             Gets or sets the collection of information of overlays for ARM-7.
             </summary>
         </member>
+        <member name="M:SceneGate.Ekona.Containers.Rom.ProgramInfo.HasValidHashes">
+            <summary>
+            Gets a value indicating if all the content hashes are valid.
+            </summary>
+            <returns>Value indicating whether the hashes are valid.</returns>
+            <remarks>It takes into account hashes only available in DS or DSi games.</remarks>
+        </member>
+        <member name="M:SceneGate.Ekona.Containers.Rom.ProgramInfo.HasValidSignature">
+            <summary>
+            Gets a value indicating if the content signature is valid.
+            </summary>
+            <returns>Value indicating whether the signature is valid.</returns>
+            <remarks>In the case of DS games it always returns true.</remarks>
+        </member>
         <member name="T:SceneGate.Ekona.Containers.Rom.ProgramRegions">
             <summary>
             Supported regions for the program.

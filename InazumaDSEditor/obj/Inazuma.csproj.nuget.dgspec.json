@@ -1,17 +1,204 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj": {}
+    "C:\\Users\\niels\\source\\repos\\Inazuma\\Inazuma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj": {
+    "C:\\Users\\niels\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj",
-        "projectName": "Inazuma",
-        "projectPath": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\Inazuma.csproj",
+        "projectUniqueName": "C:\\Users\\niels\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj",
+        "projectName": "SceneGate.Ekona",
+        "projectPath": "C:\\Users\\niels\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj",
         "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\niels\\Documents\\GitHub\\InazumaDSEditor\\InazumaDSEditor\\obj\\",
+        "outputPath": "C:\\Users\\niels\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          },
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )",
+              "versionCentrallyManaged": true
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.19.0.84025, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.HashFunction.CRC": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Texim": {
+              "target": "Package",
+              "version": "[0.1.0-preview.210, )",
+              "versionCentrallyManaged": true
+            },
+            "Yarhl": {
+              "target": "Package",
+              "version": "[4.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "[0.13.12, )",
+            "coverlet.collector": "[6.0.0, )",
+            "FluentAssertions": "[6.12.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.9.0, )",
+            "nunit": "[4.0.1, )",
+            "NUnit3TestAdapter": "[4.5.0, )",
+            "Portable.BouncyCastle": "[1.9.0, )",
+            "SonarAnalyzer.CSharp": "[9.19.0.84025, )",
+            "System.Data.HashFunction.CRC": "[2.0.0, )",
+            "Texim": "[0.1.0-preview.210, )",
+            "YamlDotNet": "[15.1.1, )",
+            "Yarhl": "[4.0.0, )",
+            "Yarhl.Media.Text": "[4.0.0, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        },
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )",
+              "versionCentrallyManaged": true
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.19.0.84025, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.HashFunction.CRC": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Texim": {
+              "target": "Package",
+              "version": "[0.1.0-preview.210, )",
+              "versionCentrallyManaged": true
+            },
+            "Yarhl": {
+              "target": "Package",
+              "version": "[4.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "[0.13.12, )",
+            "coverlet.collector": "[6.0.0, )",
+            "FluentAssertions": "[6.12.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.9.0, )",
+            "nunit": "[4.0.1, )",
+            "NUnit3TestAdapter": "[4.5.0, )",
+            "Portable.BouncyCastle": "[1.9.0, )",
+            "SonarAnalyzer.CSharp": "[9.19.0.84025, )",
+            "System.Data.HashFunction.CRC": "[2.0.0, )",
+            "Texim": "[0.1.0-preview.210, )",
+            "YamlDotNet": "[15.1.1, )",
+            "Yarhl": "[4.0.0, )",
+            "Yarhl.Media.Text": "[4.0.0, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\niels\\source\\repos\\Inazuma\\Inazuma.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\niels\\source\\repos\\Inazuma\\Inazuma.csproj",
+        "projectName": "Inazuma",
+        "projectPath": "C:\\Users\\niels\\source\\repos\\Inazuma\\Inazuma.csproj",
+        "packagesPath": "C:\\Users\\niels\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niels\\source\\repos\\Inazuma\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\niels\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +215,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj": {
-                "projectPath": "C:\\Users\\niels\\Documents\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj"
+              "C:\\Users\\niels\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj": {
+                "projectPath": "C:\\Users\\niels\\Downloads\\Ekona-1.0\\Ekona-1.0\\src\\Ekona\\Ekona.csproj"
               }
             }
           }

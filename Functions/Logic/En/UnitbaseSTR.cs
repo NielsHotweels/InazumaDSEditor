@@ -13,6 +13,12 @@ namespace Inazuma.Functions.Logic.En
     {
         [MarshalAs(UnmanagedType.ByValArray, SizeConst = 0x80)]
         public byte[] Description;
+        public string DescriptionString
+        {
+            get => Encoding.UTF8.GetString(Description).TrimEnd('\0'); // Convert byte array to string
+            set => UpdateDescription(value); // Update byte array from string
+        }
+
         public string GetDescription()
         {
             return Encoding.UTF8.GetString(Description);

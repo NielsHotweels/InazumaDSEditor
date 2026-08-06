@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace Inazuma.Functions.Tools
+namespace InazumaDSEditor.Tools
 {
     public class BinaryDataReader : IDisposable
     {

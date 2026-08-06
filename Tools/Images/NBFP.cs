@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Drawing;
-using inzDS.Tools;
 using System.Collections.Generic;
+using InazumaDSEditor.Tools;
 
-namespace inzDS.Formats.Images
+namespace InazumaDSEditor.Tools.Images
 {
     public class NBFP
     {
@@ -17,7 +17,7 @@ namespace inzDS.Formats.Images
         Color BGR555ToColor(byte byte1, byte byte2)
         {
             int r, b, g;
-            short bgr = BitConverter.ToInt16(new Byte[] { byte1, byte2 }, 0);
+            short bgr = BitConverter.ToInt16(new byte[] { byte1, byte2 }, 0);
 
             r = (bgr & 0x001F) * 0x08;
             g = ((bgr & 0x03E0) >> 5) * 0x08;
@@ -25,13 +25,13 @@ namespace inzDS.Formats.Images
 
             return Color.FromArgb(r, g, b);
         }
-        Byte[] ColorToBGR555(Color color)
+        byte[] ColorToBGR555(Color color)
         {
             byte[] d = new byte[2];
 
             int r = color.R / 8;
-            int g = (color.G / 8) << 5;
-            int b = (color.B / 8) << 10;
+            int g = color.G / 8 << 5;
+            int b = color.B / 8 << 10;
 
             ushort bgr = (ushort)(r + g + b);
             Array.Copy(BitConverter.GetBytes(bgr), d, 2);

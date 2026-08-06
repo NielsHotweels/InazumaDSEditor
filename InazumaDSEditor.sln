@@ -5,10 +5,10 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InazumaDSEditor", "InazumaDSEditor.csproj", "{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}"
 	ProjectSection(ProjectDependencies) = postProject
-		{D9A9845D-8E33-4927-8010-1413D9ADBBA3} = {D9A9845D-8E33-4927-8010-1413D9ADBBA3}
+		{C791810B-2D21-40BB-8B44-152FE902058C} = {C791810B-2D21-40BB-8B44-152FE902058C}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekona", "..\..\..\Downloads\Ekona-1.0\Ekona-1.0\src\Ekona\Ekona.csproj", "{D9A9845D-8E33-4927-8010-1413D9ADBBA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekona", "..\..\..\Documents\Ekona-1.1\Ekona-1.1\src\Ekona\Ekona.csproj", "{C791810B-2D21-40BB-8B44-152FE902058C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +20,10 @@ Global
 		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE3A6DC-0F25-4E48-B3DE-2291D43827B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9A9845D-8E33-4927-8010-1413D9ADBBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C791810B-2D21-40BB-8B44-152FE902058C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C791810B-2D21-40BB-8B44-152FE902058C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C791810B-2D21-40BB-8B44-152FE902058C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C791810B-2D21-40BB-8B44-152FE902058C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace Inazuma.Functions.Tools
+namespace InazumaDSEditor.Tools
 {
     public class BinaryDataWriter : IDisposable
     {

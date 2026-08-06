@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Drawing;
-using Inazuma.Functions.Tools;
 using System.Collections.Generic;
-using inzDS.Tools;
+using InazumaDSEditor.Tools;
 
-namespace inzDS.Formats.Images
+namespace InazumaDSEditor.Tools.Images
 {
     public class NBFC
     {

@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
-namespace inzDS.Tools
+namespace InazumaDSEditor.Tools
 {
     public class DataReader
     {
@@ -15,11 +15,11 @@ namespace inzDS.Tools
 
         public DataReader(string file)
         {
-            this.Path = file;
-            this.Length = File.ReadAllBytes(file).Length;
+            Path = file;
+            Length = File.ReadAllBytes(file).Length;
             Stream = File.ReadAllBytes(file);
         }
-        public DataReader(Byte[] _Stream)
+        public DataReader(byte[] _Stream)
         {
             Stream = _Stream;
             Length = _Stream.Length;
@@ -55,7 +55,7 @@ namespace inzDS.Tools
                                  .ToArray();
             }
             byte[] hexCode = StringToByteArray();
-            using (BinaryWriter bw = new BinaryWriter(new MemoryStream(this.Stream)))
+            using (BinaryWriter bw = new BinaryWriter(new MemoryStream(Stream)))
             {
                 bw.BaseStream.Seek(position, SeekOrigin.Begin);
                 bw.Write(hexCode, 0, hexCode.Length);
@@ -66,12 +66,12 @@ namespace inzDS.Tools
         public void Append(string appendHex)
         {
             Stream = Stream.Concat(StringToByteArray(appendHex)).ToArray();
-            this.Length = Stream.Length;
+            Length = Stream.Length;
         }
 
         public int Search(int start, int deplacement, string search)
         {
-            if (Length == 0) this.Length = File.ReadAllBytes(Path).Length;
+            if (Length == 0) Length = File.ReadAllBytes(Path).Length;
             for (int i = start; i < Length; i += deplacement)
             {
                 string find = Read(i, search.Length / 2, false);
@@ -103,7 +103,7 @@ namespace inzDS.Tools
                 {
                     hex = "0" + hex;
                 }
-                List<String> hexList = new List<string>();
+                List<string> hexList = new List<string>();
                 for (int i = 0; i < hex.Length - 1; i = i + 2)
                 {
                     hexList.Add(hex.Substring(i, 2));
